@@ -5,6 +5,7 @@
 'use strict';
 
 var React = require('react-native');
+var ActivityIndicatorIOSDemo = require('./src/UIComponents/ActivityIndicatorIOSDemo');
 var {
   AppRegistry,
   StyleSheet,
@@ -17,15 +18,9 @@ var ReactNativeDemo = React.createClass({
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          ActivityIndicatorIOSDemo
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+        <ActivityIndicatorIOSDemo />
       </View>
     );
   }
