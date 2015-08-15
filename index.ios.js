@@ -6,6 +6,7 @@
 
 var React = require('react-native');
 var ActivityIndicatorIOSDemo = require('./src/UIComponents/ActivityIndicatorIOSDemo');
+var DatePickerIOSDemo = require('./src/UIComponents/DatePickerIOSDemo.js');
 var {
   AppRegistry,
   StyleSheet,
@@ -21,6 +22,10 @@ var ReactNativeDemo = React.createClass({
           ActivityIndicatorIOSDemo
         </Text>
         <ActivityIndicatorIOSDemo />
+        <Text style={styles.welcome}>
+          DatePickerIOSDemo
+        </Text>
+        <DatePickerIOSDemo />
       </View>
     );
   }

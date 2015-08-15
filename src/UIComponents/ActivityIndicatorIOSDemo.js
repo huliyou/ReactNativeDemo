@@ -37,7 +37,7 @@ var ToggleAnimatingActivityIndicator = React.createClass({
           <ActivityIndicatorIOS
             animating = {this.state.animating}
             size = "large"
-            color = 'red'
+            color = 'orange'
           />
       );
     }
